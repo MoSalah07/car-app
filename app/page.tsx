@@ -5,6 +5,7 @@ import {
   CarCard,
   ShowMore,
   Hero,
+  BtnClearParams,
 } from "@/components/index";
 // Featching Car
 import { fetchingCars } from "@/utils/index";
@@ -39,6 +40,7 @@ export default async function Home({ searchParams }: HomeProps) {
             <CustomFilter title={`year`} options={yearsOfProduction} />
           </div>
         </div>
+        <BtnClearParams />
         {!isDataEmpty ? (
           <section>
             <div className="home__cars-wrapper">

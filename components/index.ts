@@ -9,6 +9,7 @@ import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
 import SearchButton from "./SearchButton";
 import ShowMore from "./ShowMore";
+import BtnClearParams from "./BtnClearParams";
 
 export {
   Hero,
@@ -22,4 +23,5 @@ export {
   CarDetails,
   SearchButton,
   ShowMore,
+  BtnClearParams
 };
